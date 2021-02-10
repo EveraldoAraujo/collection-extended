@@ -10,8 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/EveraldoAraujo/extended-collection"
   },
+  "tags": [
+    "collection",
+    "generic",
+    "comparator",
+    "extended",
+    "sets"
+  ],
   "main": "src/index.ts",
-  "private": true,
+  "private": false,
   "workspaces": {
     "packages": [
       "packages/**",
