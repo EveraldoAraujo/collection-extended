@@ -4,8 +4,8 @@
       "**/.github/":true,  
       "**/.gitignore":true,
 
-      "**/node_modules": true,
-      "**/tsconfig.json": true,
+      "**/node_modules": false,
+      "**/tsconfig.json": false,
       
       "**/jest.config.js":true,
       "**/jest.config.ts":true,

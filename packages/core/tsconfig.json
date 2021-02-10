@@ -2,7 +2,11 @@
   "extends": "../../tsconfig",
 
   "compilerOptions": {
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "removeComments": true,
+    "target": "ES6"
   },
 
   "include": ["src/**/*"],
