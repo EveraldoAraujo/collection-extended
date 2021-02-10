@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+      "**/.git": true,
+      "**/.github/":true,  
+      "**/.gitignore":true,
+
+      "**/node_modules": true,
+      "**/tsconfig.json": true,
+      
+      "**/jest.config.js":true,
+      "**/jest.config.ts":true,
+
+      "**/babel.config.js":true,
+      
+      "**/.eslintignore":true,
+      "**/.eslintrc.js":true,
+      "**/prettier.config.js":true,
+      
+      "**/yarn.lock":true,
+      "**/yarn-error.log":true,
+    }
+  }
+  

@@ -1,6 +1,15 @@
 {
   "name": "extended-collection",
-  "version": "1.0.0",
+  "readme": "README.md",
+  "version": "0.0.1",
+  "author": {
+    "name": "Everaldo Araujo",
+    "email": "developer.everaldoaraujo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EveraldoAraujo/extended-collection"
+  },
   "main": "src/index.ts",
   "private": true,
   "workspaces": {
@@ -13,8 +22,14 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Everaldo Araujo <developer.everaldoaraujo@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@types/jest": "^26.0.20",
+    "babel": "^6.23.0",
+    "jest": "^26.6.3",
+    "typescript": "^4.1.4"
+  },
   "description": "Generic and extended collections."
 }
