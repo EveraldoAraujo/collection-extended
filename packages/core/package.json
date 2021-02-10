@@ -4,5 +4,8 @@
   "description": "basic implementation for a generic and extended collection.",
   "main": "src/index.ts",
   "author": "Everaldo Araujo <developer.everaldoaraujo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "replace-json-property": "^1.6.3"
+  }
 }
