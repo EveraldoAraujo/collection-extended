@@ -1,11 +1,9 @@
 {
   "name": "@extended-collection/core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "basic implementation for a generic and extended collection.",
   "main": "src/index.ts",
   "author": "Everaldo Araujo <developer.everaldoaraujo@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "replace-json-property": "^1.6.3"
-  }
+  "devDependencies": {}
 }
