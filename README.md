@@ -19,8 +19,8 @@ const person = new Entity(1, "John Doe");
 addToChat(person);
 ```
 
-###Onde as entidades(person) são identificadas por id.
-####Com native Array
+### Onde as entidades(person) são identificadas por id.
+#### Com native Array
 ```typescript
 async addToChat(person: Entity){
    //const persons: Array<Entity> = await _repository.getAll();
@@ -32,7 +32,7 @@ async addToChat(person: Entity){
 }
 ```
 
-####Como resolver com native Array
+#### Como resolver com native Array
 ```typescript
 async addToChat(person: Entity){
    //const persons: Array<Entity> = await _repository.getAll();
@@ -45,7 +45,7 @@ async addToChat(person: Entity){
 }
 ```
 
-####Como resolver com Collection:
+#### Como resolver com Collection:
 ```typescript
 async addToChat(person: Entity){
    //const persons: Collection<Entity> = new Collection<Entity>({
@@ -104,7 +104,7 @@ const address = new Address(
 userHaveAdress(user, address);
 ```
 
-###Onde os objetos são comparados por todas as propriedades
+### Onde os objetos são comparados por todas as propriedades
 Com native Array
 ```typescript
 async userHaveAdress(user: Entity, address: Address){
@@ -133,7 +133,7 @@ async userHaveAdress(user: Entity, address: Address){
 }
 ```
 
-####Como resolver com Collection:
+#### Como resolver com Collection:
 
 change type on user and initialize collection with comparator prop:
 ```typescript
